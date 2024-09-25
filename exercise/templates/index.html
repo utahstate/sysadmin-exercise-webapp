@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>USU Sysadmin Exercise</title>
+</head>
+<body>
+    <h1>USU Sysadmin Exercise</h1>
+    <p>If you see this page then you have completed part 1 of the exercise.  For part 2, use a shell on a Linux machine (you can use a shell in this Docker container if you want).</p>
+
+    <p>Choose 3 of these exercises and run through them.  Please be prepared to share with us your findings and walk us through your solutions.</p>
+
+    <h1>Linux Exercises</h1>
+
+    <h2>1) Report Users with UID >= 1000</h2>
+<pre>
+    You are asked to produce a quick report of users on the system that have a UID >= 1000. The output requested is login, UID, and shell. Please show how you would produce this information using a shell script.
+</pre>
+
+    <h2>2) Write a "Watchdog" Script</h2>
+<pre>
+    Write a "watchdog" one-line script to monitor the growth of the /var and /home filesystems without using the "watch" command.
+</pre>
+    <h2>3) Remove Invalid Character</h2>
+<pre>
+    You are looking at a text file that you need to prepare for upload into a database, but it fails due to an invalid character. All lines end with the ^M character. Can you devise a script to remove this character so the file can be loaded into the database?
+</pre>
+
+    <h2>4) Testing a Condition</h2>
+<pre>
+    You are writing a shell script and having problems with the following condition: <code>if [ -s $FILE ]</code>. The script is giving you problems and is rather lengthy with multiple similar checks. You want to test this condition on the command line outside of the script.
+    Please give a detailed explanation of how to test this condition.
+</pre>
+
+    <h1>Python Exercixses</h1>
+    <h3>Use Python >= 3.11 to complete these exercises</h3>
+    <h2>5) Parse a log file with Python</h2>
+
+<pre>
+    The objective is to pull log files from a GitHub repository and parse them using Python to find the number of failed authentication attempts in the log file.
+    
+    Use curl or wget and download the log file at this url:
+    https://github.com/logpai/loghub/blob/master/Linux/Linux_2k.log
+
+    Now that you have the log file, use Python to parse it and find the number of failed authentication attempts.
+</pre>
+
+    <h2>6) Parse a csv file with Python</h2>
+
+<pre>
+    Using python, download the CSV file from the following link: https://docs.google.com/spreadsheets/d/e/2PACX-1vR_SfJ7xUN3pcnRw3Z5b0DeINfFmZvWvquoJuBNS0UiA4h2xeftVlOml2BI162JiarV0XyvIOxaEJFQ/pub?gid=0&single=true&output=csv
+    Parse the CSV and extract user information.
+    Optional:
+        Audit the data, making sure that each user meets the following criteria
+    	Email addresses must contain "@" and a domain.
+    	The role should be either "admin" or "user".
+    	The status should be either "active" or "inactive".
+    	The created_on date must be in the format YYYY-MM-DD.
+        Show the total active users, total inactive users, and a list of invalid entries (users with invalid email, role, status, or date). If any entries are invalid, the list of invalid entries should include the invalid rows.
+</pre>
+
+    <h2>7) Interact with an API with Python</h2>
+
+<pre>
+
+    Grab 10 random jokes from the official joke API (https://official-joke-api.appspot.com/jokes/random/10).
+    Parse the JSON to grab the "programming" type jokes.
+    Optional:
+      Store these jokes until there are 5 programming jokes.
+      Present the jokes only showing the setup and punchline.
+      Repeat steps 1-4 three times.
+
+</pre>
+
+    <h1>PowerShell Exercises</h1>
+    <h2>8) Parse a log file with PowerShell</h2>
+
+<pre>
+    The objective is to pull log files from a GitHub repository and parse them using PowerShell to find the number of failed authentication attempts in the log file.
+
+    Download the log file at this url:
+    https://github.com/logpai/loghub/blob/master/Linux/Linux_2k.log
+
+    Now that you have the log file, use PowerShell to parse it and find the number of failed authentication attempts.
+</pre>
+
+    <h2>9) Parse a csv file with PowerShell</h2>
+
+<pre>
+    Using PowerShell, download the CSV file from the following link: https://docs.google.com/spreadsheets/d/e/2PACX-1vR_SfJ7xUN3pcnRw3Z5b0DeINfFmZvWvquoJuBNS0UiA4h2xeftVlOml2BI162JiarV0XyvIOxaEJFQ/pub?gid=0&single=true&output=csv
+    Parse the CSV and extract user information.
+    Optional:
+        Audit the data, making sure that each user meets the following criteria
+        Email addresses must contain "@" and a domain.
+        The role should be either "admin" or "user".
+        The status should be either "active" or "inactive".
+        The created_on date must be in the format YYYY-MM-DD.
+        Show the total active users, total inactive users, and a list of invalid entries (users with invalid email, role, status, or date). If any entries are invalid, the list of invalid entries should include the invalid rows.
+</pre>
+
+    <h2>10) Interact with an API with PowerShell</h2>
+
+<pre>
+
+    Grab 10 random jokes from the official joke API (https://official-joke-api.appspot.com/jokes/random/10).
+    Parse the JSON to grab the "programming" type jokes.
+    Optional:
+      Store these jokes until there are 5 programming jokes.
+      Present the jokes only showing the setup and punchline.
+      Repeat steps 1-4 three times.
+
+</pre>
+
+
+</body>
+</html>
