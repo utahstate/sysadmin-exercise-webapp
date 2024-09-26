@@ -5,7 +5,7 @@ setup(
     version="0.1",
     description="Sysadmin web application",
     author="Ken Andersen",
-    packages=['sysadminwebapp'],
+    packages=['exercise'],
     classifiers=[
         'Development Status :: Development',
         'Intended Audience :: Developers',
