@@ -1,115 +1,92 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>USU Sysadmin Exercise</title>
-</head>
-<body>
-    <h1>USU Sysadmin Exercise</h1>
-    <p>If you see this page then you have completed part 1 of the exercise.</p>
-
-    <p>For part 2, choose 3 of these exercises and run through them.  Please be prepared to share with us your findings and walk us through your solutions.</p>
-
-    <h1>Linux Exercises</h1>
-
-    <h2>1) Report Users with UID >= 1000</h2>
-<pre>
-    You are asked to produce a quick report of users on the system that have a UID >= 1000. The output requested is login, UID, and shell. Please show how you would produce this information using a shell script.
-</pre>
-
-    <h2>2) Write a "Watchdog" Script</h2>
-<pre>
-    Write a "watchdog" one-line script to monitor the growth of the /var and /home filesystems without using the "watch" command.
-</pre>
-    <h2>3) Remove Invalid Character</h2>
-<pre>
-    You are looking at a text file that you need to prepare for upload into a database, but it fails due to an invalid character. All lines end with the ^M character. Can you devise a script to remove this character so the file can be loaded into the database?
-</pre>
-
-    <h2>4) Testing a Condition</h2>
-<pre>
-    You are writing a shell script and having problems with the following condition: <code>if [ -s $FILE ]</code>. The script is giving you problems and is rather lengthy with multiple similar checks. You want to test this condition on the command line outside of the script.
-    Please give a detailed explanation of how to test this condition.
-</pre>
-
-    <h1>Python Exercises</h1>
-    <h3>Use Python >= 3.11 to complete these exercises</h3>
-    <h2>5) Parse a log file with Python</h2>
-
-<pre>
-    The objective is to pull log files from a GitHub repository and parse them using Python to find the number of failed authentication attempts in the log file.
-
-    Use curl or wget and download the log file at this url:
-    https://github.com/logpai/loghub/blob/master/Linux/Linux_2k.log
-
-    Now that you have the log file, use Python to parse it and find the number of failed authentication attempts.
-</pre>
-
-    <h2>6) Parse a csv file with Python</h2>
-
-<pre>
-    Using python, download the CSV file from the following link: https://docs.google.com/spreadsheets/d/e/2PACX-1vR_SfJ7xUN3pcnRw3Z5b0DeINfFmZvWvquoJuBNS0UiA4h2xeftVlOml2BI162JiarV0XyvIOxaEJFQ/pub?gid=0&single=true&output=csv
-    Parse the CSV and extract user information.
-    Optional:
-        Audit the data, making sure that each user meets the following criteria
-    	Email addresses must contain "@" and a domain.
-    	The role should be either "admin" or "user".
-    	The status should be either "active" or "inactive".
-    	The created_on date must be in the format YYYY-MM-DD.
-        Show the total active users, total inactive users, and a list of invalid entries (users with invalid email, role, status, or date). If any entries are invalid, the list of invalid entries should include the invalid rows.
-</pre>
-
-    <h2>7) Interact with an API with Python</h2>
-
-<pre>
-
-    Grab 10 random jokes from the official joke API (https://official-joke-api.appspot.com/jokes/random/10).
-    Parse the JSON to grab the "programming" type jokes.
-    Optional:
-      Store these jokes until there are 5 programming jokes.
-      Present the jokes only showing the setup and punchline.
-      Repeat steps 1-4 three times.
-
-</pre>
-
-    <h1>PowerShell Exercises</h1>
-    <h2>8) Parse a log file with PowerShell</h2>
-
-<pre>
-    The objective is to pull log files from a GitHub repository and parse them using PowerShell to find the number of failed authentication attempts in the log file.
-
-    Download the log file at this url:
-    https://github.com/logpai/loghub/blob/master/Linux/Linux_2k.log
-
-    Now that you have the log file, use PowerShell to parse it and find the number of failed authentication attempts.
-</pre>
-
-    <h2>9) Parse a csv file with PowerShell</h2>
-
-<pre>
-    Using PowerShell, download the CSV file from the following link: https://docs.google.com/spreadsheets/d/e/2PACX-1vR_SfJ7xUN3pcnRw3Z5b0DeINfFmZvWvquoJuBNS0UiA4h2xeftVlOml2BI162JiarV0XyvIOxaEJFQ/pub?gid=0&single=true&output=csv
-    Parse the CSV and extract user information.
-    Optional:
-        Audit the data, making sure that each user meets the following criteria
-        Email addresses must contain "@" and a domain.
-        The role should be either "admin" or "user".
-        The status should be either "active" or "inactive".
-        The created_on date must be in the format YYYY-MM-DD.
-        Show the total active users, total inactive users, and a list of invalid entries (users with invalid email, role, status, or date). If any entries are invalid, the list of invalid entries should include the invalid rows.
-</pre>
-
-    <h2>10) Interact with an API with PowerShell</h2>
-
-<pre>
-
-    Grab 10 random jokes from the official joke API (https://official-joke-api.appspot.com/jokes/random/10).
-    Parse the JSON to grab the "programming" type jokes.
-    Optional:
-      Store these jokes until there are 5 programming jokes.
-      Present the jokes only showing the setup and punchline.
-      Repeat steps 1-4 three times.
-
-</pre>
-
-
-</body>
-</html>
+PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICAgIDx0aXRsZT5VU1UgU3lzYWRtaW4gRXhl
+cmNpc2U8L3RpdGxlPgo8L2hlYWQ+Cjxib2R5PgogICAgPGgxPlVTVSBTeXNhZG1pbiBFeGVyY2lz
+ZTwvaDE+CiAgICA8cD5JZiB5b3Ugc2VlIHRoaXMgcGFnZSB0aGVuIHlvdSBoYXZlIGNvbXBsZXRl
+ZCBwYXJ0IDEgb2YgdGhlIGV4ZXJjaXNlLjwvcD4KCiAgICA8cD5Gb3IgcGFydCAyLCBjaG9vc2Ug
+MyBvZiB0aGVzZSBleGVyY2lzZXMgYW5kIHJ1biB0aHJvdWdoIHRoZW0uICBQbGVhc2UgYmUgcHJl
+cGFyZWQgdG8gc2hhcmUgd2l0aCB1cyB5b3VyIGZpbmRpbmdzIGFuZCB3YWxrIHVzIHRocm91Z2gg
+eW91ciBzb2x1dGlvbnMuPC9wPgoKICAgIDxoMT5MaW51eCBFeGVyY2lzZXM8L2gxPgoKICAgIDxo
+Mj4xKSBSZXBvcnQgVXNlcnMgd2l0aCBVSUQgPj0gMTAwMDwvaDI+CjxwcmU+CiAgICBZb3UgYXJl
+IGFza2VkIHRvIHByb2R1Y2UgYSBxdWljayByZXBvcnQgb2YgdXNlcnMgb24gdGhlIHN5c3RlbSB0
+aGF0IGhhdmUgYSBVSUQgPj0gMTAwMC4gVGhlIG91dHB1dCByZXF1ZXN0ZWQgaXMgbG9naW4sIFVJ
+RCwgYW5kIHNoZWxsLiBQbGVhc2Ugc2hvdyBob3cgeW91IHdvdWxkIHByb2R1Y2UgdGhpcyBpbmZv
+cm1hdGlvbiB1c2luZyBhIHNoZWxsIHNjcmlwdC4KPC9wcmU+CgogICAgPGgyPjIpIFdyaXRlIGEg
+IldhdGNoZG9nIiBTY3JpcHQ8L2gyPgo8cHJlPgogICAgV3JpdGUgYSAid2F0Y2hkb2ciIG9uZS1s
+aW5lIHNjcmlwdCB0byBtb25pdG9yIHRoZSBncm93dGggb2YgdGhlIC92YXIgYW5kIC9ob21lIGZp
+bGVzeXN0ZW1zIHdpdGhvdXQgdXNpbmcgdGhlICJ3YXRjaCIgY29tbWFuZC4KPC9wcmU+CiAgICA8
+aDI+MykgUmVtb3ZlIEludmFsaWQgQ2hhcmFjdGVyPC9oMj4KPHByZT4KICAgIFlvdSBhcmUgbG9v
+a2luZyBhdCBhIHRleHQgZmlsZSB0aGF0IHlvdSBuZWVkIHRvIHByZXBhcmUgZm9yIHVwbG9hZCBp
+bnRvIGEgZGF0YWJhc2UsIGJ1dCBpdCBmYWlscyBkdWUgdG8gYW4gaW52YWxpZCBjaGFyYWN0ZXIu
+IEFsbCBsaW5lcyBlbmQgd2l0aCB0aGUgXk0gY2hhcmFjdGVyLiBDYW4geW91IGRldmlzZSBhIHNj
+cmlwdCB0byByZW1vdmUgdGhpcyBjaGFyYWN0ZXIgc28gdGhlIGZpbGUgY2FuIGJlIGxvYWRlZCBp
+bnRvIHRoZSBkYXRhYmFzZT8KPC9wcmU+CgogICAgPGgyPjQpIFRlc3RpbmcgYSBDb25kaXRpb248
+L2gyPgo8cHJlPgogICAgWW91IGFyZSB3cml0aW5nIGEgc2hlbGwgc2NyaXB0IGFuZCBoYXZpbmcg
+cHJvYmxlbXMgd2l0aCB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbjogPGNvZGU+aWYgWyAtcyAkRklM
+RSBdPC9jb2RlPi4gVGhlIHNjcmlwdCBpcyBnaXZpbmcgeW91IHByb2JsZW1zIGFuZCBpcyByYXRo
+ZXIgbGVuZ3RoeSB3aXRoIG11bHRpcGxlIHNpbWlsYXIgY2hlY2tzLiBZb3Ugd2FudCB0byB0ZXN0
+IHRoaXMgY29uZGl0aW9uIG9uIHRoZSBjb21tYW5kIGxpbmUgb3V0c2lkZSBvZiB0aGUgc2NyaXB0
+LgogICAgUGxlYXNlIGdpdmUgYSBkZXRhaWxlZCBleHBsYW5hdGlvbiBvZiBob3cgdG8gdGVzdCB0
+aGlzIGNvbmRpdGlvbi4KPC9wcmU+CgogICAgPGgxPlB5dGhvbiBFeGVyY2lzZXM8L2gxPgogICAg
+PGgzPlVzZSBQeXRob24gPj0gMy4xMSB0byBjb21wbGV0ZSB0aGVzZSBleGVyY2lzZXM8L2gzPgog
+ICAgPGgyPjUpIFBhcnNlIGEgbG9nIGZpbGUgd2l0aCBQeXRob248L2gyPgoKPHByZT4KICAgIFRo
+ZSBvYmplY3RpdmUgaXMgdG8gcHVsbCBsb2cgZmlsZXMgZnJvbSBhIEdpdEh1YiByZXBvc2l0b3J5
+IGFuZCBwYXJzZSB0aGVtIHVzaW5nIFB5dGhvbiB0byBmaW5kIHRoZSBudW1iZXIgb2YgZmFpbGVk
+IGF1dGhlbnRpY2F0aW9uIGF0dGVtcHRzIGluIHRoZSBsb2cgZmlsZS4KCiAgICBVc2UgY3VybCBv
+ciB3Z2V0IGFuZCBkb3dubG9hZCB0aGUgbG9nIGZpbGUgYXQgdGhpcyB1cmw6CiAgICBodHRwczov
+L2dpdGh1Yi5jb20vbG9ncGFpL2xvZ2h1Yi9ibG9iL21hc3Rlci9MaW51eC9MaW51eF8yay5sb2cK
+CiAgICBOb3cgdGhhdCB5b3UgaGF2ZSB0aGUgbG9nIGZpbGUsIHVzZSBQeXRob24gdG8gcGFyc2Ug
+aXQgYW5kIGZpbmQgdGhlIG51bWJlciBvZiBmYWlsZWQgYXV0aGVudGljYXRpb24gYXR0ZW1wdHMu
+CjwvcHJlPgoKICAgIDxoMj42KSBQYXJzZSBhIGNzdiBmaWxlIHdpdGggUHl0aG9uPC9oMj4KCjxw
+cmU+CiAgICBVc2luZyBweXRob24sIGRvd25sb2FkIHRoZSBDU1YgZmlsZSBmcm9tIHRoZSBmb2xs
+b3dpbmcgbGluazogaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hlZXRzL2QvZS8yUEFD
+WC0xdlJfU2ZKN3hVTjNwY25SdzNaNWIwRGVJTmZGbVp2V3ZxdW9KdUJOUzBVaUE0aDJ4ZWZ0VmxP
+bWwyQkkxNjJKaWFyVjBYeXZJT3hhRUpGUS9wdWI/Z2lkPTAmc2luZ2xlPXRydWUmb3V0cHV0PWNz
+dgogICAgUGFyc2UgdGhlIENTViBhbmQgZXh0cmFjdCB1c2VyIGluZm9ybWF0aW9uLgogICAgT3B0
+aW9uYWw6CiAgICAgICAgQXVkaXQgdGhlIGRhdGEsIG1ha2luZyBzdXJlIHRoYXQgZWFjaCB1c2Vy
+IG1lZXRzIHRoZSBmb2xsb3dpbmcgY3JpdGVyaWEKICAgIAlFbWFpbCBhZGRyZXNzZXMgbXVzdCBj
+b250YWluICJAIiBhbmQgYSBkb21haW4uCiAgICAJVGhlIHJvbGUgc2hvdWxkIGJlIGVpdGhlciAi
+YWRtaW4iIG9yICJ1c2VyIi4KICAgIAlUaGUgc3RhdHVzIHNob3VsZCBiZSBlaXRoZXIgImFjdGl2
+ZSIgb3IgImluYWN0aXZlIi4KICAgIAlUaGUgY3JlYXRlZF9vbiBkYXRlIG11c3QgYmUgaW4gdGhl
+IGZvcm1hdCBZWVlZLU1NLURELgogICAgICAgIFNob3cgdGhlIHRvdGFsIGFjdGl2ZSB1c2Vycywg
+dG90YWwgaW5hY3RpdmUgdXNlcnMsIGFuZCBhIGxpc3Qgb2YgaW52YWxpZCBlbnRyaWVzICh1c2Vy
+cyB3aXRoIGludmFsaWQgZW1haWwsIHJvbGUsIHN0YXR1cywgb3IgZGF0ZSkuIElmIGFueSBlbnRy
+aWVzIGFyZSBpbnZhbGlkLCB0aGUgbGlzdCBvZiBpbnZhbGlkIGVudHJpZXMgc2hvdWxkIGluY2x1
+ZGUgdGhlIGludmFsaWQgcm93cy4KPC9wcmU+CgogICAgPGgyPjcpIEludGVyYWN0IHdpdGggYW4g
+QVBJIHdpdGggUHl0aG9uPC9oMj4KCjxwcmU+CgogICAgR3JhYiAxMCByYW5kb20gam9rZXMgZnJv
+bSB0aGUgb2ZmaWNpYWwgam9rZSBBUEkgKGh0dHBzOi8vb2ZmaWNpYWwtam9rZS1hcGkuYXBwc3Bv
+dC5jb20vam9rZXMvcmFuZG9tLzEwKS4KICAgIFBhcnNlIHRoZSBKU09OIHRvIGdyYWIgdGhlICJw
+cm9ncmFtbWluZyIgdHlwZSBqb2tlcy4KICAgIE9wdGlvbmFsOgogICAgICBTdG9yZSB0aGVzZSBq
+b2tlcyB1bnRpbCB0aGVyZSBhcmUgNSBwcm9ncmFtbWluZyBqb2tlcy4KICAgICAgUHJlc2VudCB0
+aGUgam9rZXMgb25seSBzaG93aW5nIHRoZSBzZXR1cCBhbmQgcHVuY2hsaW5lLgogICAgICBSZXBl
+YXQgc3RlcHMgMS00IHRocmVlIHRpbWVzLgoKPC9wcmU+CgogICAgPGgxPlBvd2VyU2hlbGwgRXhl
+cmNpc2VzPC9oMT4KICAgIDxoMj44KSBQYXJzZSBhIGxvZyBmaWxlIHdpdGggUG93ZXJTaGVsbDwv
+aDI+Cgo8cHJlPgogICAgVGhlIG9iamVjdGl2ZSBpcyB0byBwdWxsIGxvZyBmaWxlcyBmcm9tIGEg
+R2l0SHViIHJlcG9zaXRvcnkgYW5kIHBhcnNlIHRoZW0gdXNpbmcgUG93ZXJTaGVsbCB0byBmaW5k
+IHRoZSBudW1iZXIgb2YgZmFpbGVkIGF1dGhlbnRpY2F0aW9uIGF0dGVtcHRzIGluIHRoZSBsb2cg
+ZmlsZS4KCiAgICBEb3dubG9hZCB0aGUgbG9nIGZpbGUgYXQgdGhpcyB1cmw6CiAgICBodHRwczov
+L2dpdGh1Yi5jb20vbG9ncGFpL2xvZ2h1Yi9ibG9iL21hc3Rlci9MaW51eC9MaW51eF8yay5sb2cK
+CiAgICBOb3cgdGhhdCB5b3UgaGF2ZSB0aGUgbG9nIGZpbGUsIHVzZSBQb3dlclNoZWxsIHRvIHBh
+cnNlIGl0IGFuZCBmaW5kIHRoZSBudW1iZXIgb2YgZmFpbGVkIGF1dGhlbnRpY2F0aW9uIGF0dGVt
+cHRzLgo8L3ByZT4KCiAgICA8aDI+OSkgUGFyc2UgYSBjc3YgZmlsZSB3aXRoIFBvd2VyU2hlbGw8
+L2gyPgoKPHByZT4KICAgIFVzaW5nIFBvd2VyU2hlbGwsIGRvd25sb2FkIHRoZSBDU1YgZmlsZSBm
+cm9tIHRoZSBmb2xsb3dpbmcgbGluazogaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hl
+ZXRzL2QvZS8yUEFDWC0xdlJfU2ZKN3hVTjNwY25SdzNaNWIwRGVJTmZGbVp2V3ZxdW9KdUJOUzBV
+aUE0aDJ4ZWZ0VmxPbWwyQkkxNjJKaWFyVjBYeXZJT3hhRUpGUS9wdWI/Z2lkPTAmc2luZ2xlPXRy
+dWUmb3V0cHV0PWNzdgogICAgUGFyc2UgdGhlIENTViBhbmQgZXh0cmFjdCB1c2VyIGluZm9ybWF0
+aW9uLgogICAgT3B0aW9uYWw6CiAgICAgICAgQXVkaXQgdGhlIGRhdGEsIG1ha2luZyBzdXJlIHRo
+YXQgZWFjaCB1c2VyIG1lZXRzIHRoZSBmb2xsb3dpbmcgY3JpdGVyaWEKICAgICAgICBFbWFpbCBh
+ZGRyZXNzZXMgbXVzdCBjb250YWluICJAIiBhbmQgYSBkb21haW4uCiAgICAgICAgVGhlIHJvbGUg
+c2hvdWxkIGJlIGVpdGhlciAiYWRtaW4iIG9yICJ1c2VyIi4KICAgICAgICBUaGUgc3RhdHVzIHNo
+b3VsZCBiZSBlaXRoZXIgImFjdGl2ZSIgb3IgImluYWN0aXZlIi4KICAgICAgICBUaGUgY3JlYXRl
+ZF9vbiBkYXRlIG11c3QgYmUgaW4gdGhlIGZvcm1hdCBZWVlZLU1NLURELgogICAgICAgIFNob3cg
+dGhlIHRvdGFsIGFjdGl2ZSB1c2VycywgdG90YWwgaW5hY3RpdmUgdXNlcnMsIGFuZCBhIGxpc3Qg
+b2YgaW52YWxpZCBlbnRyaWVzICh1c2VycyB3aXRoIGludmFsaWQgZW1haWwsIHJvbGUsIHN0YXR1
+cywgb3IgZGF0ZSkuIElmIGFueSBlbnRyaWVzIGFyZSBpbnZhbGlkLCB0aGUgbGlzdCBvZiBpbnZh
+bGlkIGVudHJpZXMgc2hvdWxkIGluY2x1ZGUgdGhlIGludmFsaWQgcm93cy4KPC9wcmU+CgogICAg
+PGgyPjEwKSBJbnRlcmFjdCB3aXRoIGFuIEFQSSB3aXRoIFBvd2VyU2hlbGw8L2gyPgoKPHByZT4K
+CiAgICBHcmFiIDEwIHJhbmRvbSBqb2tlcyBmcm9tIHRoZSBvZmZpY2lhbCBqb2tlIEFQSSAoaHR0
+cHM6Ly9vZmZpY2lhbC1qb2tlLWFwaS5hcHBzcG90LmNvbS9qb2tlcy9yYW5kb20vMTApLgogICAg
+UGFyc2UgdGhlIEpTT04gdG8gZ3JhYiB0aGUgInByb2dyYW1taW5nIiB0eXBlIGpva2VzLgogICAg
+T3B0aW9uYWw6CiAgICAgIFN0b3JlIHRoZXNlIGpva2VzIHVudGlsIHRoZXJlIGFyZSA1IHByb2dy
+YW1taW5nIGpva2VzLgogICAgICBQcmVzZW50IHRoZSBqb2tlcyBvbmx5IHNob3dpbmcgdGhlIHNl
+dHVwIGFuZCBwdW5jaGxpbmUuCiAgICAgIFJlcGVhdCBzdGVwcyAxLTQgdGhyZWUgdGltZXMuCgo8
+L3ByZT4KCgo8L2JvZHk+CjwvaHRtbD4K
